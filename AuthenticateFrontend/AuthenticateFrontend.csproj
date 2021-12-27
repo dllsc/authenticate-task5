@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="authentication\package-lock.json" />
+      <Content Include="authentication\package.json" />
+      <Content Include="authentication\public\favicon.ico" />
+      <Content Include="authentication\public\index.html" />
+      <Content Include="authentication\public\logo192.png" />
+      <Content Include="authentication\public\logo512.png" />
+      <Content Include="authentication\public\manifest.json" />
+      <Content Include="authentication\public\robots.txt" />
+      <Content Include="authentication\README.md" />
+      <Content Include="authentication\src\App.css" />
+      <Content Include="authentication\src\index.scss" />
+      <Content Include="authentication\tsconfig.json" />
+    </ItemGroup>
+
+</Project>
