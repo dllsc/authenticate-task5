@@ -4,7 +4,7 @@ import { remove } from 'local-storage';
 import { appHistory } from './history.utils';
 
 export const httpClient = axios.create({
-  baseURL: process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : 'https://mighty-atoll-31725.herokuapp.com',
+  baseURL: process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : 'https://authenticate-task5.herokuapp.com',
 });
 
 export const AUTH_FAILED_PATH = '/login';
